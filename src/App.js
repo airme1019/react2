@@ -33,7 +33,7 @@ class App extends Component {
                   characterData={characters}
                   removeCharacter={this.removeCharacter}
                 />
-              <Form handleSubmit={this.handleSubmit}/>
+                <Form handleSubmit={this.handleSubmit}/>
             </div>
         );
     }
