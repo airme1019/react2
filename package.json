@@ -12,7 +12,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "flow": "flow"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -25,6 +26,9 @@
   ],
   "homepage": "https://airme1019.github.io/react2",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.87.0",
     "gh-pages": "^2.0.1"
   }
 }
